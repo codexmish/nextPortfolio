@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar";
+import ResNav from "./Components/ResNav";
 
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar/>
+        <ResNav/>
         {children}
       </body>
     </html>
