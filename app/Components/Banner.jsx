@@ -10,7 +10,7 @@ import CommonCounter from "./common/CommonCounter";
 const Banner = () => {
   return (
     <>
-      <section>
+      <section id="home">
         <div className="banner bg-black-bg py-[106px] px-6 lg:px-0">
           <div className="container flex items-center flex-wrap  gap-20">
             <div className="text text-center lg:text-start">

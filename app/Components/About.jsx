@@ -7,7 +7,7 @@ import CommonProgress from "./common/CommonProgress";
 const About = () => {
   return (
     <>
-      <section className="bg-black-bg">
+      <section id="about" className="bg-black-bg">
         <div className="container">
           <Commonhead
             head={"About Me"}

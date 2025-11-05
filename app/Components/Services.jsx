@@ -6,7 +6,7 @@ import { FaUserGroup } from "react-icons/fa6";
 const Services = () => {
   return (
     <>
-      <section className="bg-black-bg pt-[150px] pb-[150px]">
+      <section id="services" className="bg-black-bg pt-[150px] pb-[150px]">
         <div className="container px-6 lg:px-0">
           <Commonhead
             head={"Services"}

@@ -3,29 +3,29 @@ import Link from "next/link";
 export const menuitem = [
   {
     menuName: "Home",
-    navLink: "/",
+    navLink: "#home",
   },
   {
     menuName: "Services",
-    navLink: "/",
+    navLink: "#services",
   },
   {
     menuName: "About Me",
-    navLink: "/",
+    navLink: "#about",
   },
   {
     menuName: "Portfolio",
-    navLink: "/",
+    navLink: "#portfolio",
   },
   {
     menuName: "contact Us",
-    navLink: "/",
+    navLink: "#Contact",
   },
 ];
 const Navbar = () => {
   return (
     <>
-      <nav className="py-5 absolute top-0 bg-black-bg left-0 w-full z-50 hidden lg:block">
+      <nav className="py-5 sticky top-0 bg-black-bg left-0 w-full z-50 hidden lg:block">
         <div className="main container flex items-center justify-between">
           {/* --------logo------- */}
           <div className="logo w-10">
