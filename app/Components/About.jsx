@@ -7,14 +7,14 @@ import CommonProgress from "./common/CommonProgress";
 const About = () => {
   return (
     <>
-      <section id="about" className="bg-black-bg">
+      <section id="about" className="bg-black-bg px-6">
         <div className="container">
           <Commonhead
             head={"About Me"}
             text={"User Interface and User Experience and Also video editing "}
           />
 
-          <div className="flex items-center justify-center gap-25 pb-25">
+          <div className="flex items-center flex-wrap justify-center gap-25 pb-25">
             <div className="img">
               <Image src={about} />
             </div>

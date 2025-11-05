@@ -53,6 +53,7 @@ const ResNav = () => {
                   className="text-sm text-cofee hover:text-theme font-medium font-playfair"
                   key={id}
                   href={item.navLink}
+                  onClick={() => setShowMenu(!showMenu)}
                 >
                   {item.menuName}
                 </Link>
