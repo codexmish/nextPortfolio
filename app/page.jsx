@@ -1,5 +1,6 @@
 import About from "./Components/About";
 import Banner from "./Components/Banner";
+import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import Services from "./Components/Services";
 
@@ -10,6 +11,7 @@ const page = () => {
       <Services/>
       <About/>
       <Portfolio/>
+      <Contact/>
     </>
   );
 };
